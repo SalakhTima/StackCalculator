@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34316.72
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StackCalculator", "StackCalculator\StackCalculator.csproj", "{9564E485-F10B-4BDF-B5FC-CE25C368DB9D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9564E485-F10B-4BDF-B5FC-CE25C368DB9D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9564E485-F10B-4BDF-B5FC-CE25C368DB9D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9564E485-F10B-4BDF-B5FC-CE25C368DB9D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9564E485-F10B-4BDF-B5FC-CE25C368DB9D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F76E605E-781D-48AE-A01E-3B7456D00F4A}
+	EndGlobalSection
+EndGlobal
