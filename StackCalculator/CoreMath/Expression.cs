@@ -4,7 +4,7 @@ namespace StackCalculator.CoreMath;
 
 public static class Expression
 {
-    private const string Pattern = @"^[0-9+\-*/^,.() ]+$";
+    private const string Pattern = @"^[0-9+\-*/^,() ]+$";
 
     public static string ToPostfix(string expression)
     {

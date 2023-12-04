@@ -16,7 +16,7 @@ public static class Calculator
         {
             if (!Operator.IsOperator(element))
             {
-                stack.Push(double.Parse(element/*, CultureInfo.InvariantCulture*/));
+                stack.Push(double.Parse(element));
             }
             else
             {
