@@ -1,4 +1,4 @@
-﻿namespace StackCalculator.Converter;
+﻿namespace StackCalculator.CoreMath;
 
 public static class OperatorsContainer
 {
