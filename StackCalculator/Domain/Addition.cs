@@ -1,0 +1,22 @@
+﻿namespace StackCalculator.Domain;
+
+public class Addition : ICommand
+{
+    public double Execute(double leftOperand, double rightOperand)
+    {
+        double result;
+        try
+        {
+            checked
+            {
+                result = leftOperand + rightOperand;
+            }
+        }
+        catch (OverflowException e)
+        {
+            Console.WriteLine(e.Message);
+            result = default;
+        }
+        return result;
+    }
+}
